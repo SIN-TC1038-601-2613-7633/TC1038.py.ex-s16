@@ -11,8 +11,11 @@ def main():
     clave = input().upper()
 
     while clave != 'X':
-        precio = float(input())
-
+        if clave == "A":
+            precio = 120
+        elif clave == "B":
+            precio = 250
+            
         total += precio
 
         clave = input().upper()
