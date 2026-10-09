@@ -13,14 +13,12 @@ def main():
     while clave != 'X':
         if clave == "A":
             precio = 120
-            print(precio)
-            total += precio
         elif clave == "B":
             precio = 250
-            print(precio)
-            total += precio
         elif clave == "C":
             precio = 360
+        
+        if clave == "A" or clave == "B" or clave == "C":
             print(precio)
             total += precio
             
